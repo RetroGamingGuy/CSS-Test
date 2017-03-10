@@ -1,0 +1,73 @@
+html,body {
+/* black background, arial font 14px, font weight 300, zero margins */
+	background-color: black;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: 300;
+	margin: 0;
+}
+#container {
+/* black background, full width of screen, background image bg.gif */
+	background-color:black;
+	width: 100%;
+	background-image: url("bg.gif");
+}
+#main {
+/* full width, white font, black background  */
+	width: 100%;
+	color: white;
+	background-color: black;
+	position:absolute;
+}
+#navbar {
+}
+#subnavbar {
+}
+#leftmain {
+/* text align to center, black background, float left, border 1px solid style  */
+/* YOU determine margins, padding, width, height to match ANSWERKEY.jpg */
+	text-align: center;
+	background-color: black;
+	float: left;
+	border: 1px;
+	border-style: solid;
+	padding-top: 10px;
+	padding-left:40px;
+	padding-right:40px;
+	padding-bottom:100px;
+	margin-left: 100px;
+	margin-top: 30px;
+	margin-right: 10px;
+	height:350px;
+}
+#rightmain {
+/* black background, float left, border 1px solid style  */
+/* YOU determine margins, padding, width, height to match ANSWERKEY.jpg */
+	background-color: black;
+	float: left;
+	border: 1px;
+	border-style: solid;
+	padding-top:50px;
+	padding-left:40px;
+	padding-right:40px;
+	padding-bottom:100px;
+	width:420px;
+	margin-top: 30px;
+	margin-right: 100px;
+	height:310px;
+	
+	
+}
+a:link {
+/* Gray */
+	color:grey;
+}
+a:visited {
+/* Gray */
+	color: grey;
+}
+a:hover {
+/* White, no text decoration */
+ color: white;
+ text-decoration: none;
+}
